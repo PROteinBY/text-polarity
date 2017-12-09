@@ -1,10 +1,9 @@
-package by.bstu.feis.ii12.core.by.bstu.feis.ii12.service;
+package by.bstu.feis.ii12.service;
 
 import by.bstu.feis.ii12.core.TextPolarityDetector;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class TextPolarityDetectionService {
 
