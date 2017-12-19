@@ -26,5 +26,5 @@ mvn jetty:run
 11. Получим такие показатели, отсортируем их по убыванию и выберем K первых.
 12. Ответом будет оценка большинства отзывов из K отобранных.
 
-Класс, реализующий сравнения: [KNeighborPolarityDetector](https://github.com/PROteinBY/text-polarity/blob/master/src/main/java/by/bstu/feis/ii12/core/KNeighborPolarityDetector.java)
+Класс, реализующий сравнения: [KNeighborPolarityDetector](https://github.com/PROteinBY/text-polarity/blob/master/src/main/java/by/bstu/feis/ii12/core/KNeighborPolarityDetector.java)<br/>
 Получение файла с n-граммами и весами для отзывов: [click](https://github.com/PROteinBY/text-polarity/blob/master/src/test/java/by/bstu/feis/ii12/core/KNeighborPolarityDetectorTest.java)
