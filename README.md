@@ -28,3 +28,8 @@ mvn jetty:run
 
 Класс, реализующий сравнения: [KNeighborPolarityDetector](https://github.com/PROteinBY/text-polarity/blob/master/src/main/java/by/bstu/feis/ii12/core/KNeighborPolarityDetector.java)<br/>
 Получение файла с n-граммами и весами для отзывов: [click](https://github.com/PROteinBY/text-polarity/blob/master/src/test/java/by/bstu/feis/ii12/core/KNeighborPolarityDetectorTest.java)
+
+## SVM
+For details with training use this [link](https://github.com/Sergey-Peshko/text-sentiment-analysis)<br/>
+Main class SvmPolarityDetector<br/>
+Main test class SvmPolarityDetectorTest<br/>
