@@ -4,6 +4,7 @@ import by.bstu.feis.ii12.core.model.BiGram;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,6 +16,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
+@Ignore
 public class KNeighborPolarityDetectorTest {
 
     private KNeighborPolarityDetector polarityDetector;

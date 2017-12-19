@@ -1,17 +1,14 @@
 package by.bstu.feis.ii12.core;
 
 import by.bstu.feis.ii12.core.model.BiGram;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import javafx.util.Pair;
-import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.util.*;
 import java.util.stream.Collectors;
 
-@Component
+//@Component
 public class KNeighborPolarityDetector implements TextPolarityDetector {
 
     private Integer k;
